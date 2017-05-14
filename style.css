@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to right, #56a2d8, #0b65a5) ;
+}
+
+.page-wrapper {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    max-width: 20%;
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 
+        1px 1px 0 #589dce,
+        -1px -1px 0  #589dce,
+        -1px 1px 0  #589dce,
+        1px -1px 0  #589dce;
+    background: linear-gradient(#56a2d8, #0b65a5)
+}
+
+.sidebar li {
+    padding: 5px;
+    margin: 3px;
+    position: relative;
+    left: -20px;
+    width: 200px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(#2a71af, #56a2d8, #407fb7)
+}
+
+.design-archives  li {
+    padding: 5px;
+    margin: 3px;
+    position: relative;
+    left: -20px;
+    width: 200px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(#2a71af, #56a2d8, #407fb7)    
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+[role="article"] {
+    background: linear-gradient( #1066b2, #377bb7);
+    padding: 20px;
+    margin: 10px;
+    border-top: 5px solid black;
+    border-radius: 20px
+}
